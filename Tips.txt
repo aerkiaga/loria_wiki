@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-19T00:33:14+02:00
+
+====== Tips ======
+
+* Choose a world whose spawn is near many different [[Biomes|biomes]] that can be reached without swimming.
+* It is preferable that your world's spawn point is within a luminous biome, so you can always see your base.
+* Set up yor base near the world spawn point.
+* Remove the  {{./pasted_image003.png}} [[Oxygen balloon]] from your inventory's oxygen slot to die and respawn.
+* Store or dispose of liquids by placing them, avoid buckets unless immediately needed.
+* When crafting, place the exact amount of material to be processed, as in some cases the number of items can affect the output.
+* When using the [[Refiner]] or [[Furnace]], try to process materials in large batches to save fuel.

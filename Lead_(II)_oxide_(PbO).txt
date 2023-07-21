@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-20T04:38:15+02:00
+
+====== Lead (II) oxide (PbO) ======
+
+{{./pasted_image.png}}
+**Name:** ''loria:lead_oxide''
+**Description:** Lead (II) oxide (PbO)
+**Crumbly:** 2
+
+**Lead (II) oxide (PbO)** is an intermediate crafting material that is produced from {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]]  and necessary to craft  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} [[Lead (Pb)]].
+
+====== Obtaining ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_oxide.png}} **Lead (II) oxide (PbO)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket_sulfur_trioxide.png}} [[Sulfur trioxide bucket]]
+This recipe takes 4 units of time.
+
+====== Usage ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_oxide.png}} **Lead (II) oxide (PbO)** + 1x  {{./pasted_image001.png}} [[Hydrogen balloon]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} [[Lead (Pb)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]]
+This recipe takes 2 units of time.

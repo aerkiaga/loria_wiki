@@ -1,0 +1,75 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-19T01:10:39+02:00
+
+====== Tutorial ======
+
+This tutorial will guide you in the first while of your game.
+
+====== First tasks ======
+
+===== Choose a good seed =====
+Due to the dependence on accessing multiple [[Biomes|biomes]], your game will be much more difficult and exhausting if you can't do so comfortably. Since dying due to [[Radiation|radiation]] poisoning is virtually inevitable (but you don't lose your inventory upon death), you should set up your base as close to the spawn point as possible. Try to get a world where all biomes are accessible by foot (i.e., no swimming) in little time, bonus if the spawn point is within a luminous biome, like [[Biomes#azure|Azure]], [[Biomes#purple-swamp|Purple swamp]] or [[Biomes#reptile-house|Reptile house]], or a large flat area in any biome, as you will always be able to find your way to the base.
+
+===== Set up a base =====
+Find a flat area very close to the spawn point, then place and unroll the [[Refiner]] you start out with, and put your spare  {{./pasted_image003.png}} [[Oxygen balloon]] in its inventory's gas slot. Place your  {{~/.minetest/games/loria/mods/loria/textures/loria_silicon_box_front.png}} [[Silicon box]] right next to the refiner.
+
+===== Get materials =====
+First, walk around the area and find  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]]. It should not be too long, since it's readily available in all biomes, especially [[Biomes#redland|Redland]]. Mine several dozens of nodes, as well as all non-radioactive solid [[Ores|ores]] you can find.
+Get a [[Oxygen balloon#obtaining|source of oxygen]]. Ideally, go to [[Biomes#acidic-landscapes|Acidic landscapes]] and mine a lot of the  {{~/.minetest/games/loria/mods/loria/textures/loria_sodium_peroxide.png}} [[Sodium peroxide (Na2O2)]] on the surface. Alternatively, you can use the  {{~/.minetest/games/loria/mods/loria/textures/loria_red_mercury_oxide.png}} [[Mercury (II) oxide (HgO, red)]] or  {{~/.minetest/games/loria/mods/loria/textures/loria_mercury_oxide.png}} [[Mercury (II) oxide (HgO)]] in [[Biomes#redland|Redland]], although it's not as easy to dispose of the mercury after extracting oxygen from them. They will be needed further down the road though, so it's a good idea to mine some of them too.
+Get a [[Hydrogen balloon#obtaining|source of hydrogen]]. This means you should reserve at first all  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ore.png}} [[Potassium ore]] you find to this end, rather than using it as fuel. Then, find  {{~/.minetest/games/loria/mods/loria/textures/loria_hydrochloric_acid_ore.png}} [[Hydrochloric acid ore]] and note its location (don't mine it yet).
+Try to find a beach in [[Biomes#redland|Redland]], and mine some of the  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]] in it.
+Return to your base (by foot or respawning) and put all those materials in the box.
+
+====== Craft a furnace ======
+
+===== Option 1: thorium furnace =====
+One good option here is to craft a  {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} [[Furnace|Gas furnace (ThO2)]], as it can carry out a few additional recipes (high-temperature) and is not any more difficult to make, plus it's safer (will not set fire to nearby [[Oxygen]] and [[Hydrogen]] nodes). It emits, however, a certain amount of [[Radiation|radiation]], which means that you will not be safe from radiation poisoning even in your own base.
+
+You'll need 3x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide_ore.png}} [[Thorium iodide ore]], as well as enough fuel ( {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]], with one fuel unit per item, or better) and an oxygen source of your choice. Depending on your oxygen source, that will be either:
+* 56 units of fuel and 6x  {{~/.minetest/games/loria/mods/loria/textures/loria_sodium_peroxide.png}} [[Sodium peroxide (Na2O2)]].
+* 50 units of fuel and 6x  {{~/.minetest/games/loria/mods/loria/textures/loria_red_mercury_oxide.png}} [[Mercury (II) oxide (HgO, red)]] or  {{~/.minetest/games/loria/mods/loria/textures/loria_mercury_oxide.png}} [[Mercury (II) oxide (HgO)]]. You'll need to dispose of 6 buckets of liquid  {{~/.minetest/games/loria/mods/loria/textures/loria_mercury.png}} [[Mercury (liquid)]], e.g. by placing them in a wide trench.
+
+The process should be as follows:
+1. First, refine the ore into  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} [[Thorium iodide (ThI4)]]. This will require 10 units of fuel.
+2. Then, further refine this into  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} [[Thorium (Th)]], consuming another 10 units of fuel.
+3. From your oxygen source of choice, extract 1x  {{./pasted_image003001.png}} [[Oxygen balloon]] and use it to oxidize one unit of thorium into  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_dioxide.png}} [[Thorium dioxide (ThO2)]]. Repeat this process twice more, reutilizing the empty balloon, to obtain 3 units of the dioxide. This process will consume 21 units of fuel plus any extra fuel from oxygen production (15 if from  {{~/.minetest/games/loria/mods/loria/textures/loria_sodium_peroxide.png}} [[Sodium peroxide (Na2O2)]], 9 if from  {{~/.minetest/games/loria/mods/loria/textures/loria_red_mercury_oxide.png}} [[Mercury (II) oxide (HgO, red)]] or  {{~/.minetest/games/loria/mods/loria/textures/loria_mercury_oxide.png}} [[Mercury (II) oxide (HgO)]]).
+4. Finally, use your own inventory to craft the furnace from its constituent material and place your new furnace in your base.
+
+===== Option 2: lead furnace =====
+An alternative if you want to avoid radiation at all costs, is to craft a  {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} [[Furnace|Gas furnace (PbSe)]]. This lacks a few recipes and, when active, will make [[Oxygen]] and [[Hydrogen]] burst into flames upon contact, yielding [[Fire]].
+
+You'll need 3x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]], 6x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ore.png}} [[Potassium ore]], 4x  {{~/.minetest/games/loria/mods/loria/textures/loria_hydrochloric_acid_ore.png}} [[Hydrochloric acid ore]], 3x  {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]], as well as at least 57 units of fuel ( {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]], with one fuel unit per item, or better).
+
+The process should be as follows:
+1. First, refine the sulfate into  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_oxide.png}} [[Lead (II) oxide (PbO)]] and discard the obtained  {{~/.minetest/games/loria/mods/loria/textures/bucket_sulfur_trioxide.png}} [[Sulfur trioxide bucket]] by emptying them into a trench. This will require 13 units of fuel.
+2. Refine the  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ore.png}} [[Potassium ore]] into  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]]. This will use 19 units of fuel.
+3. Go mine two  {{~/.minetest/games/loria/mods/loria/textures/loria_hydrochloric_acid_ore.png}} [[Hydrochloric acid ore]] nodes and pick them up (left-click) as 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_hydrochloric_acid.png}} [[Hydrochloric acid bucket]], get 1x  {{./pasted_image.png}} [[Hydrogen balloon]] by reacting them with 2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] and use it to reduce one unit of the oxide into  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} [[Lead (Pb)]]. Repeat this process once more, reusing the empty balloon, to obtain 2 units of the metal. Place and reserve the water from each of these two refining steps. This will take 6 units of fuel.
+4. Pick up the reserved water and use it as 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]] to generate hydrogen for the third, by reacting with 2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]]. Place (left-click) and reserve the liquid from the resulting  {{~/.minetest/games/loria/mods/loria/textures/bucket_potassium_hydroxide.png}} [[Potassium hydroxide bucket]]. Then repeat the refining procedure to produce a third unit of raw lead. This will take 3 units of fuel.
+5. React the raw metal with  {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]] in a further refining step, to yield  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_selenide.png}} [[Lead (II) selenide (PbSe)]]. This will consume 16 units of fuel.
+6. Finally, use your own inventory to craft the furnace from its constituent material and place your new furnace in your base.
+
+====== Get additional supplies ======
+As you will probably have noticed, the number of balloons and buckets you start with is barely enough. One balloon supplies you with oxygen, another one powers the [[Refiner]] or [[Furnace]] as needed, and a third one can be used for crafting. Since  {{./pasted_image003001.png}} [[Oxygen balloon]] requires refining to craft, that means it is not possible to let either the "fuel" balloon or the "life support" balloon run out: one should craft a new oxygen balloon using the third balloon and put it in either slot to make sure it does not run out, reusing or releasing the old balloon afterwards.
+Meanwhile, two buckets are enough for most recipes, but not all, notably excluding the extraction of water from  {{~/.minetest/games/loria/mods/loria/textures/loria_copper_sulfate.png}} [[Copper (II) sulfate pentahydrate (CuSO4  5H2O)]], which makes for a better source of hydrogen that that which we used before, and requires 5 buckets. Additionally, a mere two buckets is cumbersome for mining and transporting large amounts of liquid, and makes it impossible to leave one for fuel as  {{~/.minetest/games/loria/mods/loria/textures/bucket_trisilane.png}} [[Trisilane bucket]], which is much more efficient than just burning stacks over stacks of  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]].
+Finally, the  {{~/.minetest/games/loria/mods/loria/textures/loria_drill.png}} [[Drill]] we've so far been using to extract nodes is battery-powered, and will eventually stop working, as its durability bar suggests. While most materials can be mined by hand, this is extremely slow, and the drill is outright better than any of the other mining tools offered by the game.
+
+These tasks require lots of {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ore.png}} [[Zinc ore]], so it's a good idea to get some of both now.
+
+===== Craft a spare balloon =====
+Just find  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]], refine  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]] from it, and place //exactly// 3 ingots in your [[Furnace]] to craft an  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]]. You will need 3x  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]] and 14 units of fuel.
+Then, use your oxygen source of choice to turn this into an  {{./pasted_image003001.png}} [[Oxygen balloon]], and place it inside your  {{~/.minetest/games/loria/mods/loria/textures/loria_silicon_box_front.png}} [[Silicon box]] or in your inventory.
+This way, if you run out of oxygen you'll be able to reload right then or after respawning. Also, if your burning oxygen runs out, you will be able to simply swap it for a fresh balloon and fill the spent one as normal.
+
+===== Craft extra buckets =====
+There are two ways to craft an  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]]:
+* Refine 5x  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]] into  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]] and place all of them in the [[Furnace]] with 9 fuel. 25 units of fuel required in total.
+* Refine 4x  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ore.png}} [[Zinc ore]] into  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ingot.png}} [[Zinc ingot]] and place all of them in the [[Furnace]] with 11 fuel. 24 units of fuel required in total.
+
+Once you have crafted 3, you'll be able to extract water from  {{~/.minetest/games/loria/mods/loria/textures/loria_copper_sulfate.png}} [[Copper (II) sulfate pentahydrate (CuSO4  5H2O)]], which is abundant all across the [[Biomes#azure|Azure]] biome. You can use that water to inexpensively produce hydrogen from  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]].
+Make as many more as you wish. 4 are necessary if you want to use  {{~/.minetest/games/loria/mods/loria/textures/bucket_trisilane.png}} [[Trisilane bucket]] as fuel. Store the liquid in a new trench and leave one bucket active all the time.
+
+===== Craft a battery =====
+This requires 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]], 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ore.png}} [[Zinc ore]], 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_mercury_oxide.png}} [[Mercury (II) oxide (HgO)]] or  {{~/.minetest/games/loria/mods/loria/textures/loria_red_mercury_oxide.png}} [[Mercury (II) oxide (HgO, red)]], and 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket_potassium_hydroxide.png}} [[Potassium hydroxide bucket]]. The latter can be simply the liquid you reserved from making  {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} [[Furnace|Gas furnace (PbSe)]], or you can make some by extracting water and then hydrogen by the method described above, which yields  {{~/.minetest/games/loria/mods/loria/textures/bucket_potassium_hydroxide.png}} [[Potassium hydroxide bucket]] as a byproduct (requires 6 fuel, safely discard or reuse the hydrogen).
+Refine and place //exactly// one {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]] in your [[Furnace]] to craft an {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_case.png}} [[Aluminium case]] using 4 fuel. Additionally, refine one  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ingot.png}} [[Zinc ingot]].
+Then, place the case in the [[Refiner]] along with the remaining ingredients and 3 fuel. Take the  {{~/.minetest/games/loria/mods/loria/textures/loria_battery.png}} [[Battery]] you just produced and store it in your  {{~/.minetest/games/loria/mods/loria/textures/loria_silicon_box_front.png}} [[Silicon box]], or alternatively your inventory.

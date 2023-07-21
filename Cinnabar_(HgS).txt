@@ -1,0 +1,82 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-18T04:30:15+02:00
+
+====== Cinnabar ======
+
+{{./pasted_image001.png}}
+**Name:** ''loria:cinnabar''
+**Description:** Cinnabar (HgS)
+**Cracky:** 2
+**Fuel:** 1
+
+**Cinnabar (HgS)** is a widely distributed stone-like mineral. Often, it fulfills a "default" ground type role. Cinnabar is rich in ores, and the material itself is combustible, making it a very useful finding.
+Cinnabar and all ores based on it evaporate and disappear on contact with [[Fire|fire]]. Upon coming in contact with [[Oxigen|oxigen]], cinnabar turns into  {{~/.minetest/games/loria/mods/loria/textures/loria_mercury.png}} [[Mercury (Hg)]] and releases [[Sulfur dioxide|sulfur dioxide]]. 
+
+====== Obtaining ======
+
+===== Mining =====
+Due to acting as a "default" node, cinnabar will appear in patches on any exposed stone surface, replacing the usual material for the [[Biomes|biome]]. This occurs either as a mapgen glitch (producing large, flat blobs) or the non-glitchy replacement of dungeon nodes (producing "rooms" made of cinnabar).
+
+Additionally, cinnabar is the stone node in the [[Biomes#redland|Redland]] biome, making it trivial to obtain large quantities of it if in that biome.
+
+===== Refiner crafting =====
+All cinnabar-based solid [[Ores|ores]] will yield cinnabar upon [[Refiner|refining]].
+1x  {{./pasted_image003.png}} [[Aluminium ore|Aluminium (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image004.png}} [[Americium trifluoride ore|Americium trifluoride (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_americium_trifluoride.png}} [[Americium trifluoride (AmF3)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image006.png}} [[Copper ore|Copper (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_copper_ingot.png}} [[Copper ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image007.png}} [[Magnesium ore|Magnesium (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_magnesium_ingot.png}} [[Magnesium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image008.png}} [[Magnetite ore|Magnetite (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_magnetite.png}} [[Magnetite (FeO  Fe2O3)|Magnetite (FeO * Fe2O3)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image009.png}} [[Molybdenum ore|Molybdenum (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_molybdenum_ingot.png}} [[Molybdenum ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image010.png}} [[Platinum ore|Platinum (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_platinum_ingot.png}} [[Platinum ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image011.png}} [[Plutonium trifluoride ore|Plutonium trifluoride (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_plutonium_trifluoride.png}} [[Plutonium trifluoride (PuF3)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image005.png}} [[Potassium ore|Potassium (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image012.png}} [[Thorium iodide ore|Thorium iodide (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} [[Thorium iodide (ThI4)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image013.png}} [[Uranium tetrachloride ore|Uranium tetrachloride (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_uranium_tetrachloride.png}} [[Uranium tetrachloride (UCl4)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image014.png}} [[Wolfram ore|Wolfram (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_wolfram_ingot.png}} [[Wolfram ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+1x  {{./pasted_image015.png}} [[Zinc ore|Zinc (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ingot.png}} [[Zinc ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+All of them take 3 units of time.
+
+There is an unused recipe in the code involving an item named ''loria:aluminium_ore''. Note that refining any actual  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]] will yield an  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]], and the other output is dependent on the base terrain type of the input ore.
+1x ''loria:aluminium_ore''^{''unused''} → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar**
+Takes 3 units of time.
+
+====== Ores ======
+Cinnabar can generate containing most [[Ores|ores]], specifically:
+* {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_americium_trifluoride_ore.png}} [[Americium trifluoride ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_copper_ore.png}} [[Copper ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_magnesium_ore.png}} [[Magnesium ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_magnetite_ore.png}} [[Magnetite ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_molybdenum_ore.png}} [[Molybdenum ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_platinum_ore.png}} [[Platinum ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_plutonium_trifluoride_ore.png}} [[Plutonium trifluoride ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ore.png}} [[Potassium ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide_ore.png}} [[Thorium iodide ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_uranium_tetrachloride_ore.png}} [[Uranium tetrachloride ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_wolfram_ore.png}} [[Wolfram ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ore.png}} [[Zinc ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_hydrochloric_acid_ore.png}} [[Hydrochloric acid ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_trisilane_ore.png}} [[Trisilane ore]].
+
+Notably, cinnabar can never contain  {{~/.minetest/games/loria/mods/loria/textures/loria_calcium_ore.png}} [[Calcium ore]],  {{~/.minetest/games/loria/mods/loria/textures/loria_sulfur.png}} [[Sulfur (S)]] or  {{~/.minetest/games/loria/mods/loria/textures/loria_cuprous_oxide_ore.png}} [[Cuprous oxide ore]].
+
+Cinnabar-based (i.e. not selenium) solid ores have the following properties:
+**Name:** ''loria:{name}_cinnabar''
+**Description:** ''{Name}'' in cinnabar
+**Cracky:** 2
+
+Cinnabar-based liquid ores have the following properties:
+**Name:** ''loria:{name}_cinnabar''
+**Description:** ''{Name}'' in cinnabar
+**Cracky:** 1
+
+====== Usage ======
+
+===== Fuel =====
+Cinnabar is a weak but easily obtainable fuel, burning for 1 unit of time. The cinnabar-based version of  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ore.png}} [[Potassium ore]], much like other ores of potassium, is a fuel too, burning for 3 units.
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} **Cinnabar (HgS)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_sulfur.png}} [[Sulfur (S)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket_mercury.png}} [[Mercury bucket]]
+This recipe takes 5 units of time.

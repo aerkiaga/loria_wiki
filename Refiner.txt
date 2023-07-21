@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-18T06:37:56+02:00
+
+====== Refiner ======
+
+{{./pasted_image.png}} {{./pasted_image001.png}}
+A rolled (left) and unrolled (right) **refiner**.
+**Name:** ''furnace:refiner_item''
+**Description:** Refiner (rolled)
+**Cracky:** 2
+
+**Name:** ''furnace:refiner''
+**Description:** Refiner
+**Cracky:** 2
+**Drops:** ''furnace:refiner_item''
+
+**Name:** ''furnace:refiner_active''
+**Description:** Refiner (active)
+**Cracky:** 2
+**Drops:** ''furnace:refiner_item''
+**X-ray activity:** 0
+**Alpha activity:** 0
+**Beta activity:** 0
+**Gamma activity:** 0.3
+
+**Name:** ''furnace:barrier''
+**Description:** Barrier
+
+====== Obtaining ======
+
+===== Initial inventory =====
+Every player will first spawn with a rolled refiner in their inventory, which can be placed and retrieved. Other than that (including from other players), there's no other way to obtain a refiner.
+
+====== Usage ======
+
+===== Placing =====
+A refiner can only be obtained as ''furnace:refiner_item''. This item can be placed as its corresponding node, and right-clicking it will attempt to unroll. The node opposite to the player will be checked, and if it can be overriden, the refiner will unroll to that location.
+The unrolled furnace consists of a ''furnace:refiner'' node, which takes the space of two nodes, and an invisible ''furnace:barrier'' to forbid building in the space visually taken up by it. The former will be at the space occupied by its rolled counterpart, while the latter will appear opposite to the player who right-clicked it.
+Mining the refiner will drop its item, and will automatically delete the barrier.
+
+===== Crafting =====
+
+{{./pasted_image002.png?height=354}}
+
+The refiner's inventory interface shows the player's own inventory slots, as well as 9 input and 9 output slots, a [[Fuel|fuel]] slot and a gas slot. There is a small switch that activates or deactivates the refiner, and an arrow that visually displays the progress of the current recipe.
+It's only possible to turn the refiner on if there are a valid fuel and gas in their respective slots; it will turn off once the switch is pressed again or either the fuel or gas runs out or is removed. Additionally, the recipe will only progress if the corresponding ingredients are placed anywhere in the input slots and the refiner is on.
+
+The only valid gas is  {{./pasted_image003.png}} [[Oxygen balloon]]. Valid [[Fuel|fuels]] comprise:
+* {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]]: burns for 1 unit.
+* {{~/.minetest/games/loria/mods/loria/textures/loria_potassium.png}} [[Potassium (K)]]: burns for 2 units.
+* {{./pasted_image005.png}} [[Potassium ore|Potassium (in cinnabar)]]: burns for 3 units.
+* {{./pasted_image006.png}} [[Potassium ore|Potassium (in cobalt_blue)]]: burns for 3 units (the code contains an unused entry with 4 units).
+* {{./pasted_image007.png}} [[Potassium ore|Potassium (in chromia)]]: burns for 5 units.
+* {{./pasted_image008.png}} [[Potassium ore|Potassium (in chromium_fluoride)]]: burns for 5 units.
+* {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]]: burns for 5 units.
+* {{~/.minetest/games/loria/mods/loria/textures/bucket_trisilane.png}} [[Trisilane bucket]] : burns for 20 units (liquid fuel, can be reused if not depleted).
+
+Each recipe takes a number of time units to complete. Every unit elapsed will deplete the durability bar of the gas (e.g., a full  {{./pasted_image003.png}} [[Oxygen balloon]] will burn for about 342 units). Regarding the fuel, solid fuels are stackable and each burns for a certain number of units, while  {{~/.minetest/games/loria/mods/loria/textures/bucket_trisilane.png}} [[Trisilane bucket]] behaves pretty much like gases, updating its durability to account for burning, except its total burning time is hardcoded.
+Note that feeding the exact amount of gas and/or fuel needed by the recipe will not work, as the refiner will turn off right before the recipe is completed. Thus, add at least one extra unit for any refining operation.
+Also note that the refiner will keep burning fuel and oxygen until switched off, even if no recipe is being carried out. An active furnace also emits a small amount of gamma [[Radiation|radiation]] (0.3).

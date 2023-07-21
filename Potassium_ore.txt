@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-18T18:44:13+02:00
+
+====== Potassium ore ======
+
+{{./pasted_image.png}} {{./pasted_image001.png}} {{./pasted_image002.png}} {{./pasted_image003.png}}
+**Name:** ''loria:potassium_cinnabar''
+**Description:** Potassium (in cinnabar)
+**Cracky:** 2
+**Fuel:** 3
+
+**Name:** ''loria:potassium_cobalt_blue''
+**Description:** Potassium (in cobalt_blue)
+**Cracky:** 2
+**Fuel:** 3
+
+**Name:** ''loria:potassium_chromia''
+**Description:** Potassium (in chromia)
+**Cracky:** 2
+**Fuel:** 5
+
+**Name:** ''loria:potassium_chromium_fluoride''
+**Description:** Potassium (in chromium_fluoride)
+**Cracky:** 2
+**Fuel:** 5
+
+====== Obtaining ======
+[[Ores]] of  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium.png}} [[Potassium (K)]] can be naturally found and mined in most [[Biomes|biomes]]. They appear in the following stone types:
+* {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]] in all biomes, especially [[Biomes#redland|Redland]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_cobalt_blue.png}} [[Cobalt blue (CoAl2O4)]] in [[Biomes#azure|Azure]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_chromia.png}} [[Chromium (III) oxide (Cr2O3)]] in [[Biomes#acidic-landscapes|Acidic landscapes]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_chromium_fluoride.png}} [[Chromium (III) fluoride (CrF3)]] in [[Biomes#reptile-house|Reptile house]].
+
+====== Usage ======
+
+===== Fuel =====
+All potassium ores can be used as fuel.
+* {{./pasted_image005.png}} **Potassium (in cinnabar)**: burns for 3 units.
+* {{./pasted_image006.png}} **Potassium (in cobalt_blue)**: burns for 3 units (the code contains an unused entry with 4 units).
+* {{./pasted_image007.png}} **Potassium (in chromia)**: burns for 5 units.
+* {{./pasted_image008.png}} **Potassium (in chromium_fluoride)**: burns for 5 units.
+
+===== Refiner crafting =====
+All potassium ores can be refined into ingots.
+1x  {{./pasted_image005001.png}} **Potassium (in cinnabar)** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]]
+1x  {{./pasted_image006.png}} **Potassium (in cobalt_blue)** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cobalt_blue.png}} [[Cobalt blue (CoAl2O4)]]
+1x  {{./pasted_image007.png}} **Potassium (in chromia)** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_chromia.png}} [[Chromium (III) oxide (Cr2O3)]]
+1x  {{./pasted_image008.png}} **Potassium (in chromium_fluoride)** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_chromium_fluoride.png}} [[Chromium (III) fluoride (CrF3)]]
+All of them take 3 units of time.

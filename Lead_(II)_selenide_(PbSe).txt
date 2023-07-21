@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-20T04:12:55+02:00
+
+====== Lead (II) selenide (PbSe) ======
+
+{{./pasted_image.png}}
+**Name:** ''loria:lead_selenide''
+**Description:** Lead (II) selenide (PbSe)
+**Cracky:** 1
+
+**Lead (II) selenide (PbSe)** is an intermediate crafting material that is necessary to craft  {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} [[Furnace|Gas furnace (PbSe)]].
+
+====== Obtaining ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} [[Lead (Pb)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_selenide.png}} **Lead (II) selenide (PbSe)**
+This recipe takes 5 units of time.
+
+====== Usage ======
+
+===== Inventory crafting =====
+3x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_selenide.png}} **Lead (II) selenide (PbSe)** → 1x  {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} [[Furnace|Gas furnace (PbSe)]]

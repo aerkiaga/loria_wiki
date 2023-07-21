@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-19T02:21:51+02:00
+
+====== Thorium dioxide (ThO2) ======
+
+{{./pasted_image.png}}
+**Name:** ''loria:thorium_dioxide''
+**Description:** Thorium dioxide (ThO2)
+**Cracky:** 2
+**X-ray activity:** 0
+**Alpha activity:** 14
+**Beta activity:** 4.5
+**Gamma activity:** 0
+
+**Thorium dioxide (ThO2)** is a [[Radiation|radioactive]] intermediate crafting material used to make  {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} [[Furnace|Gas furnace (ThO2)]].
+
+====== Obtaining ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} [[Thorium (Th)]] + 1x  {{./pasted_image003.png}} [[Oxygen balloon]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_dioxide.png}} **Thorium dioxide (ThO2)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]]
+This recipe takes 6 units of time.
+
+====== Usage ======
+
+===== Inventory crafting =====
+3x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_dioxide.png}} **Thorium dioxide (ThO2)** → 1x  {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} [[Furnace|Gas furnace (ThO2)]]

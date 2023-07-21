@@ -1,0 +1,54 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-18T03:13:03+02:00
+
+====== Ores ======
+**Ores** are naturally-occurring precursors to many refined materials. Ores tend to appear replacing some nodes in a base stone terrain material. This usually takes the form of one ore node per base node and ore type (e.g.,  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]] in   {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]] is a unique node). The properties of the resulting node are then determined by the base node.  {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium]] is an exception, as it behaves very similarly to other ores but is a unique, standalone node.
+
+====== All ores ======
+* {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ore.png}} [[Aluminium ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_americium_trifluoride_ore.png}} [[Americium trifluoride ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_calcium_ore.png}} [[Calcium ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_copper_ore.png}} [[Copper ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_cuprous_oxide_ore.png}} [[Cuprous oxide ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_magnesium_ore.png}} [[Magnesium ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_magnetite_ore.png}} [[Magnetite ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_molybdenum_ore.png}} [[Molybdenum ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_platinum_ore.png}} [[Platinum ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_plutonium_trifluoride_ore.png}} [[Plutonium trifluoride ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ore.png}} [[Potassium ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide_ore.png}} [[Thorium iodide ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_uranium_tetrachloride_ore.png}} [[Uranium tetrachloride ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_wolfram_ore.png}} [[Wolfram ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ore.png}} [[Zinc ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_sulfur.png}} [[Sulfur (S)]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_hydrochloric_acid_ore.png}} [[Hydrochloric acid ore]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_trisilane_ore.png}} [[Trisilane ore]].
+Out of those,  {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_sulfur.png}} [[Sulfur (S)]] generate as standalone blocks, rather than within a terrain block.
+{{~/.minetest/games/loria/mods/loria/textures/loria_hydrochloric_acid_ore.png}} [[Hydrochloric acid ore]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_trisilane_ore.png}} [[Trisilane ore]] are liquid ores, so mining them only turns them into a source block of the respective liquid, which must be picked up by left-clicking with an empty bucket.
+{{~/.minetest/games/loria/mods/loria/textures/loria_americium_trifluoride_ore.png}} [[Americium trifluoride ore]],  {{~/.minetest/games/loria/mods/loria/textures/loria_plutonium_trifluoride_ore.png}} [[Plutonium trifluoride ore]],  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide_ore.png}} [[Thorium iodide ore]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_uranium_tetrachloride_ore.png}} [[Uranium tetrachloride ore]] are radioactive.
+
+====== Biome distribution ======
+Actually, the availability of a certain ore is only determined by the substrate it would occupy. Thus, ores classified here as present in [[Biomes#redland|Redland]] are actually present in  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]], so they will appear whenever it is (e.g., as part of dungeons). [[Biomes#purple-swamp|Purple swamp]], due to the usual inclusion of [[Biomes#redland|Redland]] patches, shows large quantities of these ores in practice. See [[Biomes]] for more information.
+| Ore                          | RH  | AL  | RL/cinnabar | PS | Azure |
+|:-----------------------------|:---:|:---:|:-----------:|:--:|:-----:|
+| Aluminium (Al)               |     | Yes |     Yes     |    |  Yes  |
+| Americium trifluoride (AmF3) | Yes |     |     Yes     |    |  Yes  |
+| Calcium (Ca)                 | Yes |     |             |    |       |
+| Copper (Cu)                  |     |     |     Yes     |    |  Yes  |
+| Cuprous oxide (Cu2O)         |     | Yes |             |    |  Yes  |
+| Magnesium (Mg)               |     | Yes |     Yes     |    |  Yes  |
+| Magnetite (FeO * Fe2O3)      | Yes |     |     Yes     |    |  Yes  |
+| Molybdenum (Mo)              |     |     |     Yes     |    |  Yes  |
+| Platinum (Pt)                |     |     |     Yes     |    |  Yes  |
+| Plutonium trifluoride (PuF3) | Yes |     |     Yes     |    |  Yes  |
+| Potassium (K)                | Yes | Yes |     Yes     |    |  Yes  |
+| Thorium iodide (ThI4)        | Yes | Yes |     Yes     |    |  Yes  |
+| Uranium tetrachloride (UCl4) | Yes | Yes |     Yes     |    |  Yes  |
+| Wolfram (W)                  |     |     |     Yes     |    |  Yes  |
+| Zinc (Zn)                    |     |     |     Yes     |    |  Yes  |
+| Selenium (Se)                | Yes | Yes |     Yes     |    |  Yes  |
+| Sulfur (S)                   | Yes |     |             |    |       |
+| Hydrochloric acid (HCl)      |     |     |     Yes     |    |  Yes  |
+| Trisilane (Si3H8)            |     |     |     Yes     |    |  Yes  |

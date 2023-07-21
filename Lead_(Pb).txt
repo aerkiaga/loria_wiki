@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-20T04:19:28+02:00
+
+====== Lead (Pb) ======
+
+{{./pasted_image.png}}
+**Name:** ''loria:lead''
+**Description:** Lead (Pb)
+**Cracky:** 1
+
+**Lead (Pb)** is an element usuall obtained from  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_oxide.png}} [[Lead (II) oxide (PbO)]] and useful for crafting  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_case.png}} [[Lead case]],  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_box_front.png}} [[Lead box]] and  {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} [[Furnace|Gas furnace (PbSe)]], as well as producing  {{~/.minetest/games/loria/mods/loria/textures/loria_copper.png}} [[Copper (Cu)]].
+
+====== Obtaining ======
+
+===== Inventory crafting =====
+1x  {{~/.minetest/games/loria/mods/electricity/textures/electricity_lamp_broken_connect_side.png}} [[Lamp|Lamp (broken)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} **Lead (Pb)**
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_oxide.png}} [[Lead (II) oxide (PbO)]] + 1x  {{./pasted_image001.png}} [[Hydrogen balloon]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} **Lead (Pb)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]]
+This recipe takes 2 units of time.
+
+====== Usage ======
+
+===== Inventory crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} **Lead (Pb)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_copper_sulfate.png}} [[Copper (II) sulfate pentahydrate (CuSO4  5H2O)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_copper.png}} [[Copper (Cu)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]]
+4x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} **Lead (Pb)** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_case.png}} [[Lead case]]
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_case.png}} [[Lead case]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} **Lead (Pb)** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_box_front.png}} [[Lead box]]
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} **Lead (Pb)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_selenide.png}} [[Lead (II) selenide (PbSe)]]
+This recipe takes 5 units of time.

@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-20T04:53:17+02:00
+
+====== Hydrogen balloon ======
+
+{{./pasted_image002.png}}
+
+====== Obtaining ======
+
+===== Inventory crafting =====
+2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] → 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_potassium_hydroxide.png}} [[Potassium hydroxide bucket]] + 1x  {{./pasted_image004.png}} **Hydrogen balloon**
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ingot.png}} [[Zinc ingot]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_hydrochloric_acid.png}} [[Hydrochloric acid bucket]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_chloride.png}} [[Zinc chloride (ZnCl2)]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] + 1x  {{./pasted_image004.png}} **Hydrogen balloon**
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]] + 3x  {{~/.minetest/games/loria/mods/loria/textures/bucket_hydrochloric_acid.png}} [[Hydrochloric acid bucket]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_chloride.png}} [[Aluminium chloride (AlCl3)]] + 3x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] + 1x  {{./pasted_image004.png}} **Hydrogen balloon**
+2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_hydrochloric_acid.png}} [[Hydrochloric acid bucket]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] → 2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_chloride.png}} [[Potassium chloride (KCl)]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] + 1x  {{./pasted_image004.png}} **Hydrogen balloon**
+
+====== Usage ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_oxide.png}} [[Lead (II) oxide (PbO)]] + 1x  {{./pasted_image004.png}} **Hydrogen balloon** + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead.png}} [[Lead (Pb)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]]
+This recipe takes 2 units of time.
+
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_manganese_dioxide.png}} [[Manganese dioxide (MnO2)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] + 1x  {{./pasted_image004.png}} **Hydrogen balloon** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_manganese_oxide.png}} [[Manganese oxide (MnO)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]]
+This recipe takes 3 units of time.
+
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_silicon_dioxide.png}} [[Silicon dioxide (SiO2)]] + 2x  {{./pasted_image004.png}} **Hydrogen balloon** + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_silicon.png}} [[Silicon (Si)]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]]
+This recipe takes 2 units of time.

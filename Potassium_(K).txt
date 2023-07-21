@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-18T19:36:09+02:00
+
+====== Potassium (K) ======
+
+{{./pasted_image.png}}
+**Name:** ''loria:potassium''
+**Description:** Potassium (K)
+**Cracky:** 1
+**Fuel:** 2
+
+**Potassium** is a solid node that is only useful as compact storage for  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]].
+
+====== Obtaining ======
+
+===== Refiner crafting =====
+9x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium.png}} **Potassium (K)**
+This recipe takes 4 units of time.
+
+====== Usage ======
+
+===== Fuel =====
+Potassium burns for 2 units of time, much less than  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]], even though it takes 9 of the latter to craft it.
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium.png}} **Potassium (K) **→ 9x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]]
+This recipe takes 4 units of time.

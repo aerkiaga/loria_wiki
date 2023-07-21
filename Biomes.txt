@@ -1,0 +1,71 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-17T21:34:17+02:00
+
+====== Biomes ======
+
+{{./pasted_image012.png?width=1000}}
+This is an example map of a world created with the v7 mapgen. Biomes are clearly visible as differently textured areas. Light grey is the ocean.
+
+{{./pasted_image013.png}}
+This diagram summarizes biome placement. The horizontal axis corresponds to the "heat" parameter of the map generator, while the vertical axis is height (not to scale).
+Each biome can only directly border biomes that are adjacent in the diagram. E.g., it's not possible to go from [[#azure|Azure]] to [[#redland|Redland]] without crossing [[#purple-swamp|Purple swamp]], even if just oceanic portions of it.
+
+====== Reptile house ======
+
+{{./pasted_image007.png?width=400}} {{./pasted_image006.png?width=400}}
+Covered in 2 layers of  {{./pasted_image001.png}} [[Nickel (II) nitrate (Ni(NO3)2)]], the stone underneath is  {{~/.minetest/games/loria/mods/loria/textures/loria_chromium_fluoride.png}} [[Chromium (III) fluoride (CrF3)]]. This applies both to land and ocean.
+The landscape is sparsely covered with various types of  {{~/.minetest/games/loria/mods/loria/textures/loria_qui_lucem_1.png}} [[Qui lucem]] (5% density), as well as  {{~/.minetest/games/loria/mods/loria/textures/loria_vastatorem.png}} [[Vastatorem]] (0.5% density, luminous).
+The larger and colored [[Timor]] cluster in sparse forests, leaving around large patches of land.
+This biome lacks many [[Ores|ores]] in any significant amount, but is the only source of  {{~/.minetest/games/loria/mods/loria/textures/loria_calcium_ore.png}} [[Calcium ore]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_sulfur.png}} [[Sulfur (S)]].
+The sky is colored  {{./pasted_image008.png}} [[#C8FF64|''#C8FF64'']] (Pear).
+
+====== Acidic landscapes ======
+
+{{./pasted_image009.png?width=400}} {{./pasted_image010.png?width=400}}
+Covered in 5 layers of  {{~/.minetest/games/loria/mods/loria/textures/loria_sodium_peroxide.png}} [[Sodium peroxide (Na2O2)]], the stone underneath is  {{~/.minetest/games/loria/mods/loria/textures/loria_chromia.png}} [[Chromium (III) oxide (Cr2O3)]]. This applies both to land and ocean.
+The flora is densely distributed, and comprises various types of  {{~/.minetest/games/loria/mods/loria/textures/loria_odorantur_1.png}} [[Odorantur]] (10% density), as well as  {{~/.minetest/games/loria/mods/loria/textures/loria_imitationis.png}} [[Imitationis]] (10% density),  {{~/.minetest/games/loria/mods/loria/textures/loria_nihil.png}} [[Nihil]] (10% density),  {{~/.minetest/games/loria/mods/loria/textures/loria_conc.png}} [[Conc]] (1% density) and the taller  {{~/.minetest/games/loria/mods/loria/textures/loria_lectica.png}} [[Lectica]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_veteris.png}} [[Veteris]].
+Forests are composed of the smaller [[Altitudo]] and the extremely tall [[Colossus]].
+This biome lacks many ores in a significant amount.
+The sky is colored  {{./pasted_image011.png}} [[#FFFF64|''#FFFF64'']] (Canary).
+
+====== Redland ======
+
+{{./pasted_image017.png?width=400}} {{./pasted_image016.png?width=400}}
+The land is covered in a layer of  {{~/.minetest/games/loria/mods/loria/textures/loria_red_mercury_oxide.png}} [[Mercury (II) oxide (HgO, red)]] and a further, underlying filler layer of  {{~/.minetest/games/loria/mods/loria/textures/loria_mercury_oxide.png}} [[Mercury (II) oxide (HgO)]]; the stone underneath is  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]].
+Redland is a barren biome, with very little flora. Only  {{~/.minetest/games/loria/mods/loria/textures/loria_caput.png}} [[Caput]] (1% density),  {{~/.minetest/games/loria/mods/loria/textures/loria_pusilli.png}} [[Pusilli]] (1% density) and  {{~/.minetest/games/loria/mods/loria/textures/loria_quercu.png}} [[Quercu]] thrive here, although they are able to grow on all three layers.
+Azure contains every ore except  {{~/.minetest/games/loria/mods/loria/textures/loria_calcium_ore.png}} [[Calcium ore]],  {{~/.minetest/games/loria/mods/loria/textures/loria_sulfur.png}} [[Sulfur (S)]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_cuprous_oxide_ore.png}} [[Cuprous oxide ore]].
+The sky is colored  {{./pasted_image018.png}} ''#FFC896'' (Light peach).
+The oceanic portion of this biome, and near-sea level land up to y = 4, is governed by a different sub-biome, **Mercury ocean**.
+
+{{./pasted_image015.png?width=400}}
+This sub-biome is covered in 3 layers of  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]] rather than the mercury oxides typical of Redland.
+Additionally, only  {{~/.minetest/games/loria/mods/loria/textures/loria_viriditas.png}} [[Viriditas]] (1% density) can appear here.
+
+====== Purple swamp ======
+
+{{./pasted_image014.png?width=400}} {{./pasted_image025.png?width=400}}
+There are no soil layers in this biome, only monolithic stone ground made of  {{~/.minetest/games/loria/mods/loria/textures/loria_ammonium_manganese_pyrophosphate.png}} [[Ammonium manganese (III) pyrophosphate]].
+Flora in the Purple swamp comprise the two varieties of  {{~/.minetest/games/loria/mods/loria/textures/loria_petite_1.png}} [[Petite]] (5% density), as well as  {{~/.minetest/games/loria/mods/loria/textures/loria_grebe.png}} [[Grebe]] (1% density),  {{~/.minetest/games/loria/mods/loria/textures/loria_periculum.png}} [[Periculum]] (1% density, luminous),  {{~/.minetest/games/loria/mods/loria/textures/loria_secreta.png}} [[Secreta]] (1% density) and multiple taller grasses:  {{~/.minetest/games/loria/mods/loria/textures/loria_avarum.png}} [[Avarum]],  {{~/.minetest/games/loria/mods/loria/textures/loria_cruento.png}} [[Cruento]],  {{~/.minetest/games/loria/mods/loria/textures/loria_rami.png}} [[Rami]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_spears.png}} [[Spears]].
+Additionally, the unusual, luminous and sometimes quite long  {{~/.minetest/games/loria/mods/loria/textures/loria_naga.png}} [[Naga]] hangs down from cliffs and caves, along with twisted, stalactite-like  {{~/.minetest/games/loria/mods/loria/textures/loria_ammonium_manganese_pyrophosphate.png}} [[Ammonium manganese (III) pyrophosphate]] columns.
+The dense forests are entirely comprised of the mushroom-like [[Turris]].
+While the  {{~/.minetest/games/loria/mods/loria/textures/loria_ammonium_manganese_pyrophosphate.png}} [[Ammonium manganese (III) pyrophosphate]] contains no ores, abundant patches of [[#redland|Redland]] and [[Azure]], as well as raw  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]], are usually mixed into the terrain.
+The sky is colored  {{./pasted_image020.png}} [[#BE9BFF|''#BE9BFF'']] (Pastel purple).
+In very deep oceans and caves, with surface level below y = -15, the **Swamp connector** sub-biome appears.
+
+{{./pasted_image028.png?width=400}} {{./pasted_image023.png?width=400}}
+Unlike the regular Purple swamp, here it is possible to find liquid  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_permanganate.png}} [[Potassium permanganate (KMnO4)]] that lies below the regular ocean or replacing springs in caves.
+Only  {{~/.minetest/games/loria/mods/loria/textures/loria_naga.png}} [[Naga]] may spawn here, dimly illuminating caves.
+
+====== Azure ======
+
+{{./pasted_image021.png?width=400}} {{./pasted_image022.png?width=400}}
+Azure is covered in 2 layers of  {{~/.minetest/games/loria/mods/loria/textures/loria_copper_sulfate.png}} [[Copper (II) sulfate pentahydrate (CuSO4 * 5H2O)]], with the underslying stone being  {{~/.minetest/games/loria/mods/loria/textures/loria_cobalt_blue.png}} [[Cobalt blue (CoAl2O4)]].
+Flora is abundant and varied, beginning with the multiple varieties of  {{~/.minetest/games/loria/mods/loria/textures/loria_pars_1.png}} [[Pars]] (10% density), and going on with  {{~/.minetest/games/loria/mods/loria/textures/loria_picea.png}} [[Picea]] (5% density),  {{~/.minetest/games/loria/mods/loria/textures/loria_purpura.png}} [[Purpura]] (5% density, luminous) and  {{~/.minetest/games/loria/mods/loria/textures/loria_rosea.png}} [[Rosea]] (5% density), to finish with the 3 variants of the tall  {{~/.minetest/games/loria/mods/loria/textures/loria_truncus_1.png}} [[Truncus]].
+Regarding forests, they contain the smaller, mushroom-like [[Rete]] and the tall, dimly luminous, densely overlapping [[Viridi petasum]].
+Azure contains every ore except  {{~/.minetest/games/loria/mods/loria/textures/loria_calcium_ore.png}} [[Calcium ore]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_sulfur.png}} [[Sulfur (S)]]. It also contains large blobs of  {{~/.minetest/games/loria/mods/loria/textures/loria_humus.png}} [[Humus]] at or near the surface.
+Oceans and caves below level y = -10 use the somewhat different sub-biome **Azure bottom**.
+
+{{./pasted_image027.png?width=400}} {{./pasted_image026.png?width=400}}
+This sub-biome lacks the top layer of {{~/.minetest/games/loria/mods/loria/textures/loria_copper_sulfate.png}} [[Copper (II) sulfate pentahydrate (CuSO4 * 5H2O)]], so the darker {{~/.minetest/games/loria/mods/loria/textures/loria_cobalt_blue.png}} [[Cobalt blue (CoAl2O4)]] is exposed.
+Here it is only possible to find  {{~/.minetest/games/loria/mods/loria/textures/loria_deus.png}} [[Deus]] (10% density),  {{~/.minetest/games/loria/mods/loria/textures/loria_infernum.png}} [[Infernum]] (10% density) and  {{~/.minetest/games/loria/mods/loria/textures/loria_vult.png}} [[Vult]] (10% density), all of them brightly luminous.

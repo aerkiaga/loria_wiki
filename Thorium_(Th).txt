@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-19T03:26:01+02:00
+
+====== Thorium (Th) ======
+
+{{./pasted_image.png}}
+**Name:** ''loria:thorium''
+**Description:** Thorium (Th)
+**Cracky:** 1
+**X-ray activity:** 0
+**Alpha activity:** 16
+**Beta activity:** 5
+**Gamma activity:** 0
+
+**Thorium (Th)** is a solid [[Radiation|radioactive]] element that mainly acts as an intermediate product in the crafting of  {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} [[Furnace|Gas furnace (ThO2)]].
+
+====== Obtaining ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} [[Thorium iodide (ThI4)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} **Thorium (Th)** + 2x  {{~/.minetest/games/loria/mods/loria/textures/loria_iodine.png}} [[Iodine (I)]]
+This recipe takes 3 units of time.
+
+===== Furnace crafting =====
+9x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_ingot.png}} [[Thorium ingot]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} **Thorium (Th)**
+This recipe takes 4 units of time and requires a  {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} [[Furnace|Gas furnace (ThO2)]].
+
+====== Usage ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} **Thorium (Th)** + 1x  {{./pasted_image003.png}} [[Oxygen balloon]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_dioxide.png}} [[Thorium dioxide (ThO2)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]]
+This recipe takes 6 units of time.
+
+===== Furnace crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} **Thorium (Th) **→ 9x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_ingot.png}} [[Thorium ingot]]
+This recipe takes 4 units of time and requires a  {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} [[Furnace|Gas furnace (ThO2)]].

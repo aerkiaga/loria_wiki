@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-20T02:27:35+02:00
+
+====== Thorium iodide (ThI4) ======
+
+{{./pasted_image.png}}
+**Name:** ''loria:thorium_iodide''
+**Description:** Thorium iodide (ThI4)
+**Cracky:** 1
+**X-ray activity:** 0
+**Alpha activity:** 12
+**Beta activity:** 4
+**Gamma activity:** 0
+
+**Thorium iodide (ThI4)** is a raw material that can be extracted from ore and refined into {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} [[Thorium (Th)]].
+
+====== Obtaining ======
+
+===== Refiner crafting =====
+All [[Thorium iodide ore|thorium iodide ores]] can be refined into this material.
+1x  {{./pasted_image003.png}} [[Thorium iodide ore|Thorium iodide (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} **Thorium iodide (ThI4)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]]
+1x  {{./pasted_image009.png}} [[Thorium iodide ore|Thorium iodide (in cobalt_blue)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} **Thorium iodide (ThI4)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cobalt_blue.png}} [[Cobalt blue (CoAl2O4)]]
+1x  {{./pasted_image004.png}} [[Thorium iodide ore|Thorium iodide (in chromia)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} **Thorium iodide (ThI4)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_chromia.png}} [[Chromium (III) oxide (Cr2O3)]]
+1x  {{./pasted_image005.png}} [[Thorium iodide ore|Thorium iodide (in chromium_fluoride)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} **Thorium iodide (ThI4)** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_chromium_fluoride.png}} [[Chromium (III) fluoride (CrF3)]]
+All of them take 3 units of time.
+
+====== Usage ======
+
+===== Refiner crafting =====
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_iodide.png}} **Thorium iodide (ThI4)** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium.png}} [[Thorium (Th)]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/loria_iodine.png}} [[Iodine (I)]]
+This recipe takes 3 units of time.

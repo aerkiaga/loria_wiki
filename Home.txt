@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-17T21:33:39+02:00
+
+====== Home ======
+
+====== Resources ======
+[[Tutorial]]
+[[Tips]]
+
+====== The world ======
+[[Biomes]]
+[[Ores]]
+[[Radiation]]
+
+====== Technology ======
+[[Refiner]]
+[[Furnace]]
+[[Tools]]

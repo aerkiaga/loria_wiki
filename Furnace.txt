@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-19T01:53:35+02:00
+
+====== Furnace ======
+
+{{./pasted_image.png?width=400}}
+ThO2/high-temperature (left) and PbSe (right) **furnaces**.
+**Name:** ''furnace:gas''
+**Description:** Gas furnace (PbSe)
+**Cracky:** 2
+
+**Name:** ''furnace:thorium''
+**Description:** Gas furnace (ThO2)
+**Cracky:** 2
+**X-ray activity:** 0
+**Alpha activity:** 13
+**Beta activity:** 4
+**Gamma activity:** 0
+
+The furnace is a crafting station which offers its own recipes, among them some for tools.
+It comes in two flavors:
+* {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} **Gas furnace (PbSe)**.
+* {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} **Gas furnace (ThO2)**, which can carry out 5 additional, high-temperature recipes, but is [[Radiation|radioactive]].
+
+====== Obtaining ======
+
+===== Inventory crafting =====
+Each variant can be crafted from 3 units of their respective material.
+3x  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_selenide.png}} [[Lead (II) selenide (PbSe)]] → 1x  {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} **Gas furnace (PbSe)**
+3x  {{~/.minetest/games/loria/mods/loria/textures/loria_thorium_dioxide.png}} [[Thorium dioxide (ThO2)]] → 1x  {{~/.minetest/games/loria/mods/furnace/textures/furnace_thorium_front.png}} **Gas furnace (ThO2)**
+
+====== Usage ======
+
+===== Crafting =====
+
+{{./pasted_image001.png?height=354}}
+
+The refiner's inventory interface shows the player's own inventory slots, as well as 9 input and 9 output slots, a [[Fuel|fuel]] slot and a gas slot. There is an arrow that visually displays the progress of the current recipe.
+The furnace will immediately turn on if there are a valid fuel and gas in their respective slots; it will turn off once either the fuel or gas runs out or is removed. Additionally, the recipe will only progress if the corresponding ingredients are placed anywhere in the input slots and the furnace is on.
+
+The only valid gas is  {{./pasted_image003.png}} [[Oxygen balloon]]. Valid [[Fuel|fuels]] comprise:
+* {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]]: burns for 1 unit.
+* {{~/.minetest/games/loria/mods/loria/textures/loria_potassium.png}} [[Potassium (K)]]: burns for 2 units.
+* {{./pasted_image005.png}} [[Potassium ore|Potassium (in cinnabar)]]: burns for 3 units.
+* {{./pasted_image006.png}} [[Potassium ore|Potassium (in cobalt_blue)]]: burns for 3 units (the code contains an unused entry with 4 units).
+* {{./pasted_image007.png}} [[Potassium ore|Potassium (in chromia)]]: burns for 5 units.
+* {{./pasted_image008.png}} [[Potassium ore|Potassium (in chromium_fluoride)]]: burns for 5 units.
+* {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} [[Potassium ingot]]: burns for 5 units.
+* {{~/.minetest/games/loria/mods/loria/textures/bucket_trisilane.png}} [[Trisilane bucket]] : burns for 20 units (liquid fuel, can be reused if not depleted).
+
+Each recipe takes a number of time units to complete. Every unit elapsed will deplete the durability bar of the gas (e.g., a full  {{./pasted_image003001.png}} [[Oxygen balloon]] will burn for about 342 units). Regarding the fuel, solid fuels are stackable and each burns for a certain number of units, while  {{~/.minetest/games/loria/mods/loria/textures/bucket_trisilane.png}} [[Trisilane bucket]] behaves pretty much like gases, updating its durability to account for burning, except its total burning time is hardcoded.
+Note that feeding the exact amount of gas and/or fuel needed by the recipe will not work, as the furnace will turn off right before the recipe is completed. Thus, add at least one extra unit for any operation.
+Also note that the furnace will keep burning fuel and oxygen until switched off, even if no recipe is being carried out, so remember to remove either of them to halt burning.
+
+===== Fire =====
+An active  {{~/.minetest/games/loria/mods/furnace/textures/furnace_gas_front.png}} **Gas furnace (PbSe)** will set fire to any number of [[Oxygen]] and [[Hydrogen]] nodes in contact to it, spreading [[Fire]].

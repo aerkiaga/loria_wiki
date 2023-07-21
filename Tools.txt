@@ -1,0 +1,100 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-20T05:56:45+02:00
+
+====== Tools ======
+
+====== Breakable nodes ======
+This is the minimum number a node might have in each mining group so it can be mined with the specified tool. E.g.,  {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]] are Crumbly = 1, so they can't be mined by hand. Several large mushroom stems are Choppy = 2, so they can only be mined using a  {{~/.minetest/games/loria/mods/loria/textures/loria_drill.png}} [[Drill]].
+| Tool               | By hand | Snappy | Choppy | Crumbly | Cracky |
+|:-------------------|:-------:|:------:|:------:|:-------:|:------:|
+| By hand            |    1    |   3    |        |    2    |   1    |
+| Drill              |    1    |   3    |   1    |    1    |   1    |
+| Super drill        |    1    |   3    |        |    1    |   1    |
+| Copper hammer      |    1    |   3    |        |    1    |   1    |
+| Copper hammer head |    1    |   3    |        |    1    |   1    |
+| Any pickaxe        |    1    |   3    |        |    1    |   1    |
+
+
+===== Except by hand =====
+* {{~/.minetest/games/loria/mods/loria/textures/loria_lead_sulfate.png}} [[Lead (II) sulfate (PbSO4)]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_selenium.png}} [[Selenium (Se)]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_chromia.png}} [[Chromium (III) oxide (Cr2O3)]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_nickel_nitrate.png}} [[Nickel (II) nitrate (Ni(NO3)2)]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_viridi_petasum_body.png}} [[Viridi petasum|Viridi petasum body]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_rete_body.png}} [[Rete|Rete body]].
+
+===== Only by drill =====
+* {{~/.minetest/games/loria/mods/loria/textures/loria_viridi_petasum_stem.png}} [[Viridi petasum|Viridi petasum stem]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_turris_stem.png}} [[Turris|Turris stem]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_turris_body.png}} [[Turris|Turris body]].
+* {{~/.minetest/games/loria/mods/loria/textures/loria_rete_stem.png}} [[Rete|Rete stem]].
+
+====== Digging times ======
+
+===== By hand =====
+These nodes are mined extremely quickly using any tool. There is only one node in this category, namely  {{~/.minetest/games/loria/mods/loria/textures/loria_fused_quartz.png}} [[Fused quartz (glass)]], which is By hand = 3.
+| Tool     | By hand = 1 | By hand = 2 | By hand = 3 |
+|:---------|:-----------:|:-----------:|:-----------:|
+| Any tool |     0.5     |     0.3     |     0.1     |
+
+
+===== Snappy =====
+These nodes are mined very quickly either by hand or using any other tool. They exclusively comprise small flora.
+| Tool     | Snappy = 3 |
+|:---------|:----------:|
+| Any tool |    0.4     |
+
+
+===== Choppy =====
+These nodes require a  {{~/.minetest/games/loria/mods/loria/textures/loria_drill.png}} [[Drill]] to be mined. See [[#breakable-nodes|Breakable nodes]] for a complete list. All of them are Choppy = 2.
+| Tool  | Choppy = 1 | Choppy = 2 | Choppy = 3 |
+|:------|:----------:|:----------:|:----------:|
+| Drill |     1      |    0.5     |    0.2     |
+
+
+===== Crumbly =====
+These nodes are usually mined better by hand than with any tool, except the strongest pickaxes and the  {{~/.minetest/games/loria/mods/loria/textures/loria_drill.png}} [[Drill]], which mines them the quickest.
+| Tool               | Crumbly = 1 | Crumbly = 2 | Crumbly = 3 |
+|:-------------------|:-----------:|:-----------:|:-----------:|
+| Hand               |             |      3      |     0.7     |
+| Drill              |     0.5     |     0.3     |     0.1     |
+| Super drill        |    0.05     |    0.05     |    0.05     |
+| Copper hammer      |      7      |      5      |      2      |
+| Copper hammer head |     15      |     10      |      4      |
+| Aluminium pickaxe  |      7      |      5      |      4      |
+| Calcium pickaxe    |      8      |      6      |      5      |
+| Copper pickaxe     |      8      |      6      |      5      |
+| Magnesium pickaxe  |      6      |      5      |      3      |
+| Molybdenum pickaxe |      4      |      3      |     1.5     |
+| Platinum pickaxe   |     5.5     |      4      |      3      |
+| Plutonium pickaxe  |     2.5     |     1.5     |     0.7     |
+| Potassium pickaxe  |     9.9     |     8.5     |     5.5     |
+| Thorium pickaxe    |      7      |      5      |      3      |
+| Uranium pickaxe    |     2.5     |     1.7     |      1      |
+| Wolfram pickaxe    |      2      |      1      |     0.5     |
+| Zinc pickaxe       |      7      |      6      |      5      |
+
+
+===== Cracky =====
+These nodes are difficult to mine by hand, and any pickaxe will do so faster. While the   {{~/.minetest/games/loria/mods/loria/textures/loria_drill.png}} [[Drill]] is still overpowered, the  {{~/.minetest/games/loria/mods/loria/textures/loria_wolfram_pickaxe.png}} [[Pickaxe|Wolfram pickaxe]] is slightly better, and the two highly radioactive pickaxes are nearly as good.
+| Tool               | Cracky = 1 | Cracky = 2 | Cracky = 3 |
+|:-------------------|:----------:|:----------:|:----------:|
+| Hand               |     9      |     7      |     5      |
+| Drill              |     2      |    0.5     |    0.3     |
+| Super drill        |    0.05    |    0.05    |    0.05    |
+| Copper hammer      |     5      |    0.9     |    0.3     |
+| Copper hammer head |     6      |    1.2     |    0.5     |
+| Aluminium pickaxe  |     5      |     3      |     2      |
+| Calcium pickaxe    |     6      |     4      |     3      |
+| Copper pickaxe     |     6      |     4      |     3      |
+| Magnesium pickaxe  |     4      |     3      |     1      |
+| Molybdenum pickaxe |     2      |     1      |    0.5     |
+| Platinum pickaxe   |    2.5     |     2      |     1      |
+| Plutonium pickaxe  |    1.5     |    0.7     |    0.4     |
+| Potassium pickaxe  |     7      |     6      |     5      |
+| Thorium pickaxe    |     6      |     4      |     2      |
+| Uranium pickaxe    |    1.5     |    0.7     |    0.4     |
+| Wolfram pickaxe    |     1      |    0.5     |    0.3     |
+| Zinc pickaxe       |     5      |     4      |     3      |
+

@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-18T19:11:40+02:00
+
+====== Potassium ingot ======
+
+{{./pasted_image001.png}}
+**Name:** ''loria:potassium_ingot''
+**Description:** Potassium ingot
+**Fuel:** 5
+
+**Potassium ingot** is an item that can be smelted from ores to be used in various crafting recipes.
+
+====== Obtaining ======
+
+===== Refiner crafting =====
+All [[Potassium ore|potassium ores]] can be refined into ingots.
+1x  {{./pasted_image005001.png}} [[Potassium ore|Potassium (in cinnabar)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cinnabar.png}} [[Cinnabar (HgS)]]
+1x  {{./pasted_image006.png}} [[Potassium ore|Potassium (in cobalt_blue)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_cobalt_blue.png}} [[Cobalt blue (CoAl2O4)]]
+1x  {{./pasted_image007.png}} [[Potassium ore|Potassium (in chromia)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_chromia.png}} [[Chromium (III) oxide (Cr2O3)]]
+1x  {{./pasted_image008.png}} [[Potassium ore|Potassium (in chromium_fluoride)]] → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_chromium_fluoride.png}} [[Chromium (III) fluoride (CrF3)]]
+All of them take 3 units of time.
+
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium.png}} [[Potassium (K)]] → 9x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot**
+This recipe takes 4 units of time.
+
+====== Usage ======
+
+===== Fuel =====
+Potassium ingots burn for 5 units of time, the same as  {{./pasted_image007001.png}} [[Potassium ore|Potassium (in chromia)]] and  {{./pasted_image008001.png}} [[Potassium ore|Potassium (in chromium_fluoride)]].
+
+===== Inventory crafting =====
+Crafting with potassium ingots is the only way to obtain  {{~/.minetest/games/loria/mods/loria/textures/bucket_potassium_hydroxide.png}} [[Potassium hydroxide bucket]],  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_chloride.png}} [[Potassium chloride (KCl)]] and  {{~/.minetest/games/loria/mods/loria/textures/loria_uranium.png}} [[Uranium (U)]]. There are another 2 recipes not involving this item that give  {{./pasted_image.png}} [[Hydrogen balloon]], one employing  {{~/.minetest/games/loria/mods/loria/textures/loria_zinc_ingot.png}} [[Zinc ingot]] and the other  {{~/.minetest/games/loria/mods/loria/textures/loria_aluminium_ingot.png}} [[Aluminium ingot]]. The first of these recipes, though, is the only way not involving  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]].
+2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_water.png}} [[Water bucket]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] → 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_potassium_hydroxide.png}} [[Potassium hydroxide bucket]] + 1x  {{./pasted_image.png}} [[Hydrogen balloon]]
+1x  {{~/.minetest/games/loria/mods/loria/textures/loria_uranium_tetrachloride.png}} [[Uranium tetrachloride (UCl4)]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_uranium.png}} [[Uranium (U)]] + 4x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_chloride.png}} [[Potassium chloride (KCl)]]
+2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket_hydrochloric_acid.png}} [[Hydrochloric acid bucket]] + 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_empty_balloon.png}} [[Empty balloon]] → 2x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_chloride.png}} [[Potassium chloride (KCl)]] + 2x  {{~/.minetest/games/loria/mods/loria/textures/bucket.png}} [[Empty bucket]] + 1x  {{./pasted_image.png}} [[Hydrogen balloon]]
+
+===== Refiner crafting =====
+9x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium_ingot.png}} **Potassium ingot** → 1x  {{~/.minetest/games/loria/mods/loria/textures/loria_potassium.png}} [[Potassium (K)]]
+This recipe takes 4 units of time.

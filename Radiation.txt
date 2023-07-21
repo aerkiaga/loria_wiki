@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-19T13:32:44+02:00
+
+====== Radiation ======
+
+**Radiation** is a game mechanic that affects the player negatively. Some nodes and items emit this radiation, which comes in four flavors: **X-ray**, **alpha**, **beta** and **gamma**.
+
+====== Basics ======
+Each player has a //current radiation level// and a //total dose received//.
+Every server step, the current radiation level will be recomputed; this value will always vary smoothly, by averaging the old value with the new one every step. See [[#calculation|Calculation]] to learn how this new value is computed.
+If the current radiation level is above the lethal dose of 1500 CU/h, the player will immediately die and drop their inventory.
+Then, the current radiation level divided by 3600 is added to the total dose received every second. This means that, at a current radiation level of 1 CU/h, the total dose received will increase by 1000 mCU per hour, or about 0.28 mCU per second.
+
+===== Effects =====
+The effects applied depend on the total dose received by the player since spawn.
+* At 800 mCU, the player might be affected by semi-blindness at any time, such that their visibility would be severely reduced.
+* At 900 mCU, the player might be affected by total blindness at any time, becoming entirely impaired.
+* At 1000 mCU, the player would begin suffering damage, at a rate of 1 HP per second.
+* At 2000 mCU, the damage rate becomes 2 HP per second; at 3000 mCU, 3 HP per second, etc.
+
+===== Drugs =====
+It is possible to counteract damage (but not blindness or semi-blindness) by placing  {{~/.minetest/games/loria/mods/loria/textures/loria_manganese_oxide.png}} [[Manganese oxide (MnO)]] in the "Drugs" slot of your inventory. Every time the dose limit is reached (initially 1000 mCU), one item will be consumed and the limit will be increased by 500 mCU. This can only go on up to 5000 mCU, then you will begin to receive the full 5 HP per second of radiation damage. Note that if you die, the dose limit will be reset. Since this does not prevent other effects aside from damage, it is not really useful.
+
+====== Calculation ======
+All nodes around the player are checked up to a 16 node radius and their radiation components are inspected. If any node has an inventory, its radiation is also computed towards the total radiation from the node, in the same manner as the player's inventory's. Then, the radiation components (X-ray, alpha, beta, gamma) are ran through their corresponding component-dependent functions of the node's distance to the player (''d'') and added to the total radiation count for the player. Any item dropped within that distance will also count.
+* For alpha, the function is ''R * e^-d²''.
+* For beta, the function is ''R * e^-d / d''.
+* For gamma and X-ray, the function is ''R / d²''.
+{{./pasted_image.png}}
+
+If the player is above y = 0, an extra 5 CU/h per 10000 nodes of height is added to the X-ray component to account for cosmic rays.
+The player's inventory will also count towards the total radiation, adding all the activities (except alpha) of each item, multiplied by its stack size. Additionally, the currently wielded item will add its alpha activity in proportion to its stack size.
+
+Finally, all components of the total radiation will be added together, and the resulting value will be set as the new radiation level, to be averaged with the current radiation level.
